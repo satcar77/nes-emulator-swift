@@ -57,7 +57,6 @@ public class Bus {
             return self.mem_read(addr: mirrDown);
         case  0x8000...0xFFFF:
             return self.read_prg_rom(addr:addr)
-//          fatalError("PPU is not supported yet")
         default:
           print("Ignoring mem access at \(String(format: "%04X", addr))")
           return 0
@@ -117,7 +116,6 @@ public class Bus {
         var addr = addr - 0x8000
         
         if self.rom.prg_rom.count == 0x4000 && addr >= 0x4000 {
-            // Mirror if needed
             addr %= 0x4000
         }
         
