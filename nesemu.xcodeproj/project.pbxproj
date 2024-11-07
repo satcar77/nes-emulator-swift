@@ -7,19 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043A4D092CA34B8F0076F5A5 /* addrreg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A4D082CA34B8F0076F5A5 /* addrreg.swift */; };
+		043A4D0B2CA34EC50076F5A5 /* ppu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A4D0A2CA34EC50076F5A5 /* ppu.swift */; };
+		043A4D0D2CA34F4A0076F5A5 /* controlregister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A4D0C2CA34F4A0076F5A5 /* controlregister.swift */; };
+		04726C422CA9FCE3003D4341 /* pacman.nes in Resources */ = {isa = PBXBuildFile; fileRef = 04726C412CA9FCE3003D4341 /* pacman.nes */; };
+		049243272C8E2AF000090A31 /* bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049243262C8E2AF000090A31 /* bus.swift */; };
+		049243292C8E309200090A31 /* cartridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049243282C8E309200090A31 /* cartridge.swift */; };
+		0492432B2C8E377000090A31 /* RomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492432A2C8E377000090A31 /* RomTests.swift */; };
+		0492432D2C8E48B700090A31 /* inestest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492432C2C8E48B700090A31 /* inestest.swift */; };
+		0492432F2C8E490B00090A31 /* nestest.nes in Resources */ = {isa = PBXBuildFile; fileRef = 0492432E2C8E490B00090A31 /* nestest.nes */; };
+		049C24A72CCEDE98008B15A0 /* viewport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C24A62CCEDE98008B15A0 /* viewport.swift */; };
+		04D20FE82CAB095000F6E941 /* pputest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D20FE72CAB095000F6E941 /* pputest.swift */; };
+		04D20FEA2CAB139600F6E941 /* mario.nes in Resources */ = {isa = PBXBuildFile; fileRef = 04D20FE92CAB139600F6E941 /* mario.nes */; };
+		04D20FF02CAB397100F6E941 /* pong.nes in Resources */ = {isa = PBXBuildFile; fileRef = 04D20FEE2CAB397100F6E941 /* pong.nes */; };
+		04D20FF22CAB39B400F6E941 /* excitebike.nes in Resources */ = {isa = PBXBuildFile; fileRef = 04D20FF12CAB39B400F6E941 /* excitebike.nes */; };
+		04D20FF42CAB742A00F6E941 /* cpulogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D20FF32CAB742A00F6E941 /* cpulogger.swift */; };
+		04DA12F82CBEFA7D00BAA070 /* joypad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA12F72CBEFA7D00BAA070 /* joypad.swift */; };
+		04DB703A2CA4966500E1730D /* statusreg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB70392CA4966500E1730D /* statusreg.swift */; };
+		04DB703C2CA4A12700E1730D /* maskreg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB703B2CA4A12700E1730D /* maskreg.swift */; };
+		04DB703E2CA4A1EE00E1730D /* scrollreg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB703D2CA4A1EE00E1730D /* scrollreg.swift */; };
+		04EDE9662CB5D3AD00064BBD /* metalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDE9652CB5D3AD00064BBD /* metalView.swift */; };
 		04FEE8402C75288200AC7F73 /* nesemuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEE83F2C75288200AC7F73 /* nesemuApp.swift */; };
 		04FEE8422C75288200AC7F73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEE8412C75288200AC7F73 /* ContentView.swift */; };
 		04FEE8442C75288400AC7F73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FEE8432C75288400AC7F73 /* Assets.xcassets */; };
 		04FEE8472C75288400AC7F73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FEE8462C75288400AC7F73 /* Preview Assets.xcassets */; };
+		04FEE8592C752EC000AC7F73 /* cpu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEE8582C752EC000AC7F73 /* cpu.swift */; };
+		04FEE8612C75301700AC7F73 /* nesemuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEE8602C75301700AC7F73 /* nesemuTests.swift */; };
+		04FEE87D2C762DFE00AC7F73 /* opcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEE87C2C762DFE00AC7F73 /* opcode.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		04FEE8622C75301700AC7F73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FEE8342C75288200AC7F73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FEE83B2C75288200AC7F73;
+			remoteInfo = nesemu;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		043A4D082CA34B8F0076F5A5 /* addrreg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addrreg.swift; sourceTree = "<group>"; };
+		043A4D0A2CA34EC50076F5A5 /* ppu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ppu.swift; sourceTree = "<group>"; };
+		043A4D0C2CA34F4A0076F5A5 /* controlregister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = controlregister.swift; sourceTree = "<group>"; };
+		04726C412CA9FCE3003D4341 /* pacman.nes */ = {isa = PBXFileReference; lastKnownFileType = file; path = pacman.nes; sourceTree = SOURCE_ROOT; };
+		049243262C8E2AF000090A31 /* bus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bus.swift; sourceTree = "<group>"; };
+		049243282C8E309200090A31 /* cartridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartridge.swift; sourceTree = "<group>"; };
+		0492432A2C8E377000090A31 /* RomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomTests.swift; sourceTree = "<group>"; };
+		0492432C2C8E48B700090A31 /* inestest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inestest.swift; sourceTree = "<group>"; };
+		0492432E2C8E490B00090A31 /* nestest.nes */ = {isa = PBXFileReference; lastKnownFileType = file; path = nestest.nes; sourceTree = "<group>"; };
+		049C24A62CCEDE98008B15A0 /* viewport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewport.swift; sourceTree = "<group>"; };
+		04D20FE72CAB095000F6E941 /* pputest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pputest.swift; sourceTree = "<group>"; };
+		04D20FE92CAB139600F6E941 /* mario.nes */ = {isa = PBXFileReference; lastKnownFileType = file; path = mario.nes; sourceTree = SOURCE_ROOT; };
+		04D20FEE2CAB397100F6E941 /* pong.nes */ = {isa = PBXFileReference; lastKnownFileType = file; path = pong.nes; sourceTree = SOURCE_ROOT; };
+		04D20FF12CAB39B400F6E941 /* excitebike.nes */ = {isa = PBXFileReference; lastKnownFileType = file; path = excitebike.nes; sourceTree = SOURCE_ROOT; };
+		04D20FF32CAB742A00F6E941 /* cpulogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cpulogger.swift; sourceTree = "<group>"; };
+		04DA12F72CBEFA7D00BAA070 /* joypad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = joypad.swift; sourceTree = "<group>"; };
+		04DB70392CA4966500E1730D /* statusreg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = statusreg.swift; sourceTree = "<group>"; };
+		04DB703B2CA4A12700E1730D /* maskreg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maskreg.swift; sourceTree = "<group>"; };
+		04DB703D2CA4A1EE00E1730D /* scrollreg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrollreg.swift; sourceTree = "<group>"; };
+		04EDE9652CB5D3AD00064BBD /* metalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metalView.swift; sourceTree = "<group>"; };
 		04FEE83C2C75288200AC7F73 /* nesemu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nesemu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FEE83F2C75288200AC7F73 /* nesemuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nesemuApp.swift; sourceTree = "<group>"; };
 		04FEE8412C75288200AC7F73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04FEE8432C75288400AC7F73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04FEE8462C75288400AC7F73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04FEE8482C75288400AC7F73 /* nesemu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nesemu.entitlements; sourceTree = "<group>"; };
+		04FEE8582C752EC000AC7F73 /* cpu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cpu.swift; sourceTree = "<group>"; };
+		04FEE85E2C75301700AC7F73 /* nesemuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nesemuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FEE8602C75301700AC7F73 /* nesemuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nesemuTests.swift; sourceTree = "<group>"; };
+		04FEE8752C75387D00AC7F73 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		04FEE8762C75387E00AC7F73 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		04FEE87C2C762DFE00AC7F73 /* opcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = opcode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,14 +89,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04FEE85B2C75301700AC7F73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		043A4D072CA34B3F0076F5A5 /* ppu */ = {
+			isa = PBXGroup;
+			children = (
+				043A4D082CA34B8F0076F5A5 /* addrreg.swift */,
+				043A4D0A2CA34EC50076F5A5 /* ppu.swift */,
+				043A4D0C2CA34F4A0076F5A5 /* controlregister.swift */,
+				04DB70392CA4966500E1730D /* statusreg.swift */,
+				04DB703B2CA4A12700E1730D /* maskreg.swift */,
+				04DB703D2CA4A1EE00E1730D /* scrollreg.swift */,
+			);
+			path = ppu;
+			sourceTree = "<group>";
+		};
 		04FEE8332C75288200AC7F73 = {
 			isa = PBXGroup;
 			children = (
 				04FEE83E2C75288200AC7F73 /* nesemu */,
+				04FEE85F2C75301700AC7F73 /* nesemuTests */,
 				04FEE83D2C75288200AC7F73 /* Products */,
+				04FEE8742C75387D00AC7F73 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				04FEE83C2C75288200AC7F73 /* nesemu.app */,
+				04FEE85E2C75301700AC7F73 /* nesemuTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,11 +134,24 @@
 		04FEE83E2C75288200AC7F73 /* nesemu */ = {
 			isa = PBXGroup;
 			children = (
+				043A4D072CA34B3F0076F5A5 /* ppu */,
+				04FEE8582C752EC000AC7F73 /* cpu.swift */,
+				04DA12F72CBEFA7D00BAA070 /* joypad.swift */,
 				04FEE83F2C75288200AC7F73 /* nesemuApp.swift */,
 				04FEE8412C75288200AC7F73 /* ContentView.swift */,
 				04FEE8432C75288400AC7F73 /* Assets.xcassets */,
 				04FEE8482C75288400AC7F73 /* nesemu.entitlements */,
 				04FEE8452C75288400AC7F73 /* Preview Content */,
+				04FEE87C2C762DFE00AC7F73 /* opcode.swift */,
+				049243262C8E2AF000090A31 /* bus.swift */,
+				04D20FEE2CAB397100F6E941 /* pong.nes */,
+				04D20FF12CAB39B400F6E941 /* excitebike.nes */,
+				04726C412CA9FCE3003D4341 /* pacman.nes */,
+				04D20FE92CAB139600F6E941 /* mario.nes */,
+				049243282C8E309200090A31 /* cartridge.swift */,
+				04D20FF32CAB742A00F6E941 /* cpulogger.swift */,
+				04EDE9652CB5D3AD00064BBD /* metalView.swift */,
+				049C24A62CCEDE98008B15A0 /* viewport.swift */,
 			);
 			path = nesemu;
 			sourceTree = "<group>";
@@ -67,6 +162,27 @@
 				04FEE8462C75288400AC7F73 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04FEE85F2C75301700AC7F73 /* nesemuTests */ = {
+			isa = PBXGroup;
+			children = (
+				0492432E2C8E490B00090A31 /* nestest.nes */,
+				04FEE8602C75301700AC7F73 /* nesemuTests.swift */,
+				0492432A2C8E377000090A31 /* RomTests.swift */,
+				0492432C2C8E48B700090A31 /* inestest.swift */,
+				04D20FE72CAB095000F6E941 /* pputest.swift */,
+			);
+			path = nesemuTests;
+			sourceTree = "<group>";
+		};
+		04FEE8742C75387D00AC7F73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04FEE8752C75387D00AC7F73 /* XcodeKit.framework */,
+				04FEE8762C75387E00AC7F73 /* XCTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +205,24 @@
 			productReference = 04FEE83C2C75288200AC7F73 /* nesemu.app */;
 			productType = "com.apple.product-type.application";
 		};
+		04FEE85D2C75301700AC7F73 /* nesemuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FEE8642C75301700AC7F73 /* Build configuration list for PBXNativeTarget "nesemuTests" */;
+			buildPhases = (
+				04FEE85A2C75301700AC7F73 /* Sources */,
+				04FEE85B2C75301700AC7F73 /* Frameworks */,
+				04FEE85C2C75301700AC7F73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FEE8632C75301700AC7F73 /* PBXTargetDependency */,
+			);
+			name = nesemuTests;
+			productName = nesemuTests;
+			productReference = 04FEE85E2C75301700AC7F73 /* nesemuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -101,6 +235,10 @@
 				TargetAttributes = {
 					04FEE83B2C75288200AC7F73 = {
 						CreatedOnToolsVersion = 15.2;
+					};
+					04FEE85D2C75301700AC7F73 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 04FEE83B2C75288200AC7F73;
 					};
 				};
 			};
@@ -118,6 +256,7 @@
 			projectRoot = "";
 			targets = (
 				04FEE83B2C75288200AC7F73 /* nesemu */,
+				04FEE85D2C75301700AC7F73 /* nesemuTests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,7 +267,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				04FEE8472C75288400AC7F73 /* Preview Assets.xcassets in Resources */,
+				04D20FF22CAB39B400F6E941 /* excitebike.nes in Resources */,
+				04D20FEA2CAB139600F6E941 /* mario.nes in Resources */,
+				04726C422CA9FCE3003D4341 /* pacman.nes in Resources */,
+				04D20FF02CAB397100F6E941 /* pong.nes in Resources */,
 				04FEE8442C75288400AC7F73 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FEE85C2C75301700AC7F73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0492432F2C8E490B00090A31 /* nestest.nes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,12 +290,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FEE8592C752EC000AC7F73 /* cpu.swift in Sources */,
+				04DB703A2CA4966500E1730D /* statusreg.swift in Sources */,
+				04DA12F82CBEFA7D00BAA070 /* joypad.swift in Sources */,
+				04DB703C2CA4A12700E1730D /* maskreg.swift in Sources */,
+				04FEE87D2C762DFE00AC7F73 /* opcode.swift in Sources */,
+				049C24A72CCEDE98008B15A0 /* viewport.swift in Sources */,
+				04DB703E2CA4A1EE00E1730D /* scrollreg.swift in Sources */,
+				049243272C8E2AF000090A31 /* bus.swift in Sources */,
+				04D20FF42CAB742A00F6E941 /* cpulogger.swift in Sources */,
+				049243292C8E309200090A31 /* cartridge.swift in Sources */,
+				043A4D0D2CA34F4A0076F5A5 /* controlregister.swift in Sources */,
+				043A4D0B2CA34EC50076F5A5 /* ppu.swift in Sources */,
+				04EDE9662CB5D3AD00064BBD /* metalView.swift in Sources */,
 				04FEE8422C75288200AC7F73 /* ContentView.swift in Sources */,
 				04FEE8402C75288200AC7F73 /* nesemuApp.swift in Sources */,
+				043A4D092CA34B8F0076F5A5 /* addrreg.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FEE85A2C75301700AC7F73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0492432B2C8E377000090A31 /* RomTests.swift in Sources */,
+				04D20FE82CAB095000F6E941 /* pputest.swift in Sources */,
+				0492432D2C8E48B700090A31 /* inestest.swift in Sources */,
+				04FEE8612C75301700AC7F73 /* nesemuTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04FEE8632C75301700AC7F73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FEE83B2C75288200AC7F73 /* nesemu */;
+			targetProxy = 04FEE8622C75301700AC7F73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		04FEE8492C75288400AC7F73 /* Debug */ = {
@@ -271,13 +455,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = nesemu/nesemu.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"nesemu/Preview Content\"";
-				DEVELOPMENT_TEAM = S96X2S9WH9;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -287,6 +473,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.deadbeef.nesemu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -298,11 +485,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = nesemu/nesemu.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"nesemu/Preview Content\"";
-				DEVELOPMENT_TEAM = S96X2S9WH9;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -314,8 +502,49 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.deadbeef.nesemu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		04FEE8652C75301700AC7F73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deadbeef.nesemu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nesemu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nesemu";
+			};
+			name = Debug;
+		};
+		04FEE8662C75301700AC7F73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deadbeef.nesemu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nesemu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nesemu";
 			};
 			name = Release;
 		};
@@ -336,6 +565,15 @@
 			buildConfigurations = (
 				04FEE84C2C75288400AC7F73 /* Debug */,
 				04FEE84D2C75288400AC7F73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FEE8642C75301700AC7F73 /* Build configuration list for PBXNativeTarget "nesemuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FEE8652C75301700AC7F73 /* Debug */,
+				04FEE8662C75301700AC7F73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
